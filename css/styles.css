@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+body{
+  background-color:#000;
+  color:#fff;
+}
+.header{
+  text-align:center;
+  font-family: 'Lobster', cursive;
+  font-size: 100px;
+}
+.btn{
+  background:#000;
+  font-size:2em;
+}
+.btn:hover{
+  color:#fff;
+}
+.btn:focus {
+  outline:0 !important;
+  color:#fff;
+}
+#sessionL{
+  position: relative;
+  right:auto;
+  left:auto;
+  margin-right:%;
+}
+#breakL{
+  position: relative;
+  right:auto;
+  left:auto;
+  margin-left:2%
+}
+.num{
+  font-size:2.5em;
+}
+#session{
+  position:relative;
+  left: auto;
+  right:auto;
+  right-margin:10px;
+}
+#break{
+  position:relative;
+  left:auto;
+  right:auto;
+}
+#temp{
+  min-width:100%;
+  min-heigth:100%;  
+  background-color:#111;
+}
+.timer-text{
+  font-size:1.8em;
+  margin-top:25%;
+  margin-bottom:9%;
+}
+.timer-clock{
+ font-size:3em; 
+}
+.circle{
+  border: 2px solid #3f3;
+  border-radius: 50%;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+  width: 15em;
+	height: 15em;
+  margin:2% auto 2% auto;
+}
